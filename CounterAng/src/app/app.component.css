@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-family: "Rubik", sans-serif;
+  color: rgb(17, 42, 66);
+}
+
+#main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#counter {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+#number {
+  font-size: 7rem;
+  margin: 2rem 0;
+}
+
+#buttons {
+  display: flex;
+}
+
+.btn {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem;
+  margin: 0 1rem;
+  border: 2px solid rgb(17, 42, 66);
+  border-radius: 1rem;
+  background-color: transparent;
+  transition: background-color 1s;
+  transition: color 1s;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
